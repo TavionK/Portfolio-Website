@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #24252A;
+}
+
+/*fonts*/
+li, a, button{
+	font-family: open-sans, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+
+/*flexbox and alignment and padding*/
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+}
+.logo{
+	margin-right: auto;
+}
+.nav-logo{
+	height: 50px;
+	cursor: pointer;
+}
+
+.nav-links{
+	list-style: none;
+}
+
+.nav-links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav-links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+	color: teal;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin-left: 20px;
+}
+
+button:hover{
+	background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
