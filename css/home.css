@@ -1,0 +1,39 @@
+body{
+	background-color: black;
+	font-family: sans-serif;
+
+}
+
+.nav-container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.nav-logo{
+	width: 45px;
+	height: 45px;
+	padding: 10px;
+	float: left;
+}
+header{
+	background: lightgray;
+}
+
+nav{
+	float: right;
+}
+
+nav li{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+nav a:hover{
+	color: grey;
+}
