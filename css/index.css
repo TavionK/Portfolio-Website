@@ -1,6 +1,7 @@
 body{
 	background-color: black;
 	font-family: sans-serif;
+	color: white;
 
 }
 
@@ -16,9 +17,11 @@ body{
 	float: left;
 }
 header{
-	background: lightgray;
+	background-color: blue;
 }
-
+.nav-container{
+	overflow: hidden;
+}
 nav{
 	float: right;
 }
