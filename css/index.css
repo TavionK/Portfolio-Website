@@ -1,51 +1,39 @@
 body{
 	background-color: black;
-	font-family: fantasy;
+	font-family: sans-serif;
+
+}
+
+.nav-container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.nav-logo{
+	width: 45px;
+	height: 45px;
+	padding: 10px;
+	float: left;
+}
+header{
+	background: lightgray;
+}
+
+nav{
+	float: right;
+}
+
+nav li{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+nav a{
+	text-decoration: none;
 	color: white;
+	font-weight: bold;
 }
 
-h1{
-	text-align: center;
-	margin-top: 10vh;
+nav a:hover{
+	color: grey;
 }
-
-img{
-	margin: auto;
-	display: block;
-}
-
-.fadeintxt{
-	animation-name: fade;	
-	animation-duration: 3s;
-}
-
-.logo{
-	animation-name: logofade;
-	animation-duration: 3s;
-}
-
-@keyframes fade{
-	0%{
-		opacity: 0;
-	}
-	25%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 1;
-	}
-}
-
-@keyframes logofade{
-	0%{
-		opacity: 0;
-	}
-	60%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 1;
-	}
-}
-
-
